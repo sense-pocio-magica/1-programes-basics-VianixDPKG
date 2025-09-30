@@ -1,4 +1,5 @@
-﻿namespace exercici2;
+﻿using System.Runtime.InteropServices.Marshalling;
+namespace exercici2;
 
 /* Declara variables per emmagatzemar l’adreça d’una persona: 
 carrer, número, codi postal i població. Imprimeix el resultat 
@@ -8,6 +9,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix el teu carrer");
+        string Carrer = Console.ReadLine();
+
+        Console.WriteLine("Introdueix el teu número de portal");
+        int NumPortal = Int32.TryParse(Console.ReadLine());
+
+        Console.WriteLine("Introdueix el teu codi postal");
+        int CodiPostal = Int32.TryParse(Console.ReadLine());
+
+        Console.WriteLine("Introdueix la teva població");
+        string Poblacio = Console.ReadLine();
+
+
+
+        Console.WriteLine($"El teu carrer es, {Carrer}, {NumPortal} de {Poblacio} amb codi postal {CodiPostal}");
+
     }
 }
