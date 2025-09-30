@@ -1,4 +1,4 @@
-﻿using System.Runtime.InteropServices.Marshalling;
+﻿
 namespace exercici2;
 
 /* Declara variables per emmagatzemar l’adreça d’una persona: 
@@ -7,19 +7,19 @@ en una sola línia */
 
 class Program
 {
-    static void Main(string[] args)
+    public static void Main()
     {
         Console.WriteLine("Introdueix el teu carrer");
-        string Carrer = Console.ReadLine();
+        string? Carrer = Console.ReadLine();
 
         Console.WriteLine("Introdueix el teu número de portal");
-        int NumPortal = Int32.TryParse(Console.ReadLine());
+        var NumPortal = Convert.ToInt16(Console.ReadLine());
 
         Console.WriteLine("Introdueix el teu codi postal");
-        int CodiPostal = Int32.TryParse(Console.ReadLine());
+        var CodiPostal = Convert.ToInt16(Console.ReadLine());
 
         Console.WriteLine("Introdueix la teva població");
-        string Poblacio = Console.ReadLine();
+        string? Poblacio = Console.ReadLine();
 
 
 
