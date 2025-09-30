@@ -6,21 +6,16 @@ class Program
 {
    public static void Main()
     {
-        Console.WriteLine("Introdueix el teu carrer");
-        string? Carrer = Console.ReadLine();
+        Console.WriteLine("Nom producte");
+        string? Prod = Console.ReadLine();
 
-        Console.WriteLine("Introdueix el teu número de portal");
-        var NumPortal = Convert.ToInt16(Console.ReadLine());
+        Console.WriteLine("Preu");
+        var Preu = Convert.ToInt16(Console.ReadLine());
 
-        Console.WriteLine("Introdueix el teu codi postal");
-        var CodiPostal = Convert.ToInt16(Console.ReadLine());
+        Console.WriteLine("Esta en estoc");
+        var estoc = Console.ReadLine();
 
-        Console.WriteLine("Introdueix la teva població");
-        string? Poblacio = Console.ReadLine();
-
-
-
-        Console.WriteLine($"El teu carrer es, {Carrer}, {NumPortal} de {Poblacio} amb codi postal {CodiPostal}");
+        Console.WriteLine($" {Prod}, {Preu}€ {estoc}");
 
     }
 }
