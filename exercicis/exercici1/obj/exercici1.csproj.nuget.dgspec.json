@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj": {}
+    "C:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj": {
+    "C:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj",
+        "projectUniqueName": "C:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj",
         "projectName": "exercici1",
-        "projectPath": "c:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj",
+        "projectPath": "C:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\exercici1.csproj",
         "packagesPath": "C:\\Users\\adria\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\obj\\",
+        "outputPath": "C:\\Users\\adria\\Documents\\Programacio\\Uf1\\1-programes-basics-VianixDPKG\\exercicis\\exercici1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adria\\AppData\\Roaming\\NuGet\\NuGet.Config"
