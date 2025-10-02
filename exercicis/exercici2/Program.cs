@@ -22,7 +22,6 @@ class Program
         string? Poblacio = Console.ReadLine();
 
 
-
         Console.WriteLine($"El teu carrer es, {Carrer}, {NumPortal} de {Poblacio} amb codi postal {CodiPostal}");
 
     }

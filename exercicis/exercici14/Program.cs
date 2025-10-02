@@ -5,6 +5,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        string paraula = "Arale";
+
+      
+        char primera = paraula[0];
+
+        
+        char ultima = paraula[paraula.Length - 1];
+
+        
+        char mig = paraula[paraula.Length / 2];
+
+        
+        Console.WriteLine($"Paraula: {paraula}");
+        Console.WriteLine($"Primera lletra: {primera}");
+        Console.WriteLine($"Última lletra: {ultima}");
+        Console.WriteLine($"Lletra del mig:{mig}");
+        
     }
 }

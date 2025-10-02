@@ -27,6 +27,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix primer numero");
+        int Primer = Convert.ToInt16(Console.ReadLine());
+        Console.Clear();
+        
+        Console.WriteLine("Introdueix segon numero");
+        int Segon = Convert.ToInt16(Console.ReadLine());
+        Console.Clear();
+
+        int suma = (Primer + Segon);
+        int resta = (Primer - Segon);
+        int multiplicacio = (Primer * Segon);
+        int divisio = (Primer / Segon);
+        int sobra = (Primer % Segon);
+
+        Console.WriteLine($"{Primer} + {Segon} = {suma}");
+        Console.WriteLine($"{Primer} - {Segon} = {resta}");
+        Console.WriteLine($"{Primer} * {Segon} = {multiplicacio}");
+        Console.WriteLine($"{Primer} / {Segon} = {divisio} i en sobra {sobra}");
+
     }
 }
