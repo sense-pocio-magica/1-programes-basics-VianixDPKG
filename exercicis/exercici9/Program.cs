@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        float metres = (float)1234.213;
+        float CPeus = (float)(metres * 3.280084);
+        Console.WriteLine(CPeus);
     }
 }
