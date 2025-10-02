@@ -10,7 +10,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
-        
+        Console.WriteLine("Introdueix valor del producte");
+        float euro = Convert.ToSingle(Console.ReadLine());
+
+        int Pessetes = Convert.ToInt32(euro * 166.386);
+
+        Console.WriteLine($"{Pessetes} Pesetes");
     }
 }

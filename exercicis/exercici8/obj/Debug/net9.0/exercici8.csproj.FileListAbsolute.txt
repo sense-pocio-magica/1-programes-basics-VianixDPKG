@@ -1,0 +1,15 @@
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\bin\Debug\net9.0\exercici8.exe
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\bin\Debug\net9.0\exercici8.deps.json
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\bin\Debug\net9.0\exercici8.runtimeconfig.json
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\bin\Debug\net9.0\exercici8.dll
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\bin\Debug\net9.0\exercici8.pdb
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.AssemblyInfoInputs.cache
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.AssemblyInfo.cs
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.csproj.CoreCompileInputs.cache
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.sourcelink.json
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.dll
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\refint\exercici8.dll
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.pdb
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\exercici8.genruntimeconfig.cache
+C:\Users\adria\Documents\INS\Programació\UF1\1-programes-basics-VianixDPKG\exercicis\exercici8\obj\Debug\net9.0\ref\exercici8.dll

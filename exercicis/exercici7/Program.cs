@@ -7,6 +7,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        float primer = (float)9.21;
+        float segon = (float)2.51;
+        float tercer = (float)6.94;
+        float suma = primer + segon + tercer;
+        float arodoniment = (float)Math.Round(suma / 3,2);
+        Console.WriteLine(arodoniment);
     }
 }

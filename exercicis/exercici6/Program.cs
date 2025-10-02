@@ -7,6 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        float costat = 2.5;
+        Console.WriteLine(costat * 4);
     }
 }
