@@ -15,6 +15,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+
+        Console.Write("Introdueix un nombre real: ");
+        double num = Convert.ToDouble(Console.ReadLine());
+
+        // Resta de num decuimal amb la part cencera
+        double decimals = num - Math.Truncate(num);
+
+        // Si és negatiu, fem que la part decimal sigui positiva abs = valor absoluto 
+        decimals = Math.abs(decimals);
+
+        Console.WriteLine("El nombre meravellós és: 0" + decimals.ToString().Substring(1));
     }
 }
