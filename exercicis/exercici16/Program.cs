@@ -16,6 +16,18 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix nota de les practiques");
+        float practiques = Convert.ToSingle(Console.ReadLine());
+        Console.Clear();
+
+        Console.WriteLine("Introdueix nota de l'examen");
+        float examen = Convert.ToSingle(Console.ReadLine());
+        Console.Clear();
+
+        float mitjana = (practiques + examen) / 2;
+        float arodoniment = (float)Math.Round(mitjana, 0);
+        int final = Convert.ToInt16(arodoniment);
+        
+        Console.WriteLine($"La nota final és {mitjana} o sigui un {final}");
     }
 }

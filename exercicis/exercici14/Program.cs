@@ -5,8 +5,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        string paraula = "Arale";
-
+        Console.WriteLine("Diguem una paraula");
+        string paraula = Console.ReadLine();
+        Console.Clear();
       
         char primera = paraula[0];
 
@@ -21,6 +22,6 @@ class Program
         Console.WriteLine($"Primera lletra: {primera}");
         Console.WriteLine($"Última lletra: {ultima}");
         Console.WriteLine($"Lletra del mig:{mig}");
-        
+    
     }
 }

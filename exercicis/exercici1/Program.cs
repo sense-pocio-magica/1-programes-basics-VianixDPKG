@@ -14,7 +14,7 @@ Entra el cognom: Pi
 
 Em dic Pi, Joan Pi 
 
-*/ 
+*/
 
 class Program
 {
