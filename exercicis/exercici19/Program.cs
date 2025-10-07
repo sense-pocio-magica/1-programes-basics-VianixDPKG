@@ -6,6 +6,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix una paraula");
+        string? paraula = Console.ReadLine();
+        Console.Clear();
+
+        int Long = paraula.Length;
+        Console.WriteLine($" La teva paraula es {paraula} i te {Long} de longitud ");
     }
 }

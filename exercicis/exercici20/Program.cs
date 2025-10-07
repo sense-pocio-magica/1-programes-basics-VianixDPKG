@@ -12,6 +12,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix nombre de 3 xifres");
+        int num = Convert.ToInt16(Console.ReadLine());
+        Console.Clear();
+
+        int cententes = num / 100;
+        int decenes = (num / 10) % 10;
+        int unitats = num % 10;
+
+        Console.WriteLine($"El teu num erea {num} ara  es {unitats}{decenes}{cententes}");
+            
     }
 }
