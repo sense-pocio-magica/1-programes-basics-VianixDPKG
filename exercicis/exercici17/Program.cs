@@ -25,6 +25,10 @@ class Program
         // Si és negatiu, fem que la part decimal sigui positiva abs = valor absoluto 
         decimals = Math.abs(decimals);
 
+
+        //Console.WriteLine($"El nombre meravellós és: {decimals}");
+
         Console.WriteLine("El nombre meravellós és: 0" + decimals.ToString().Substring(1));
+
     }
 }
